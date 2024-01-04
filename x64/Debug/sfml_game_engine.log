@@ -1,0 +1,145 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  AssetManager.cpp
+  Game.cpp
+  InputManager.cpp
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,128): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,96): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,68): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,44): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  main.cpp
+  StateMachine.cpp
+  Generating Code...
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __cdecl sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QEBAMXZ) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Vector2<int> const &,class sf::Vector2<float> const &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEBV?$Vector2@H@sf@@AEBV?$Vector2@M@4@VTime@4@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(void)" (__imp_??0String@sf@@QEAA@XZ) referenced in function "public: static class sf::String __cdecl sf::String::fromUtf8<char const *>(char const *,char const *)" (??$fromUtf8@PEBD@String@sf@@SA?AV01@PEBD0@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<unsigned char,struct std::char_traits<unsigned char>,class std::allocator<unsigned char> > __cdecl sf::String::toUtf8(void)const " (__imp_?toUtf8@String@sf@@QEBA?AV?$basic_string@EU?$char_traits@E@std@@V?$allocator@E@2@@std@@XZ) referenced in function "char const * __cdecl `anonymous namespace'::getClipboardText(void *)" (?getClipboardText@?A0xe839b2ef@@YAPEBDPEAX@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function "int `public: static class String::dtor$0 __cdecl sf::String::fromUtf8<char const *>(char const *,char const *)'::`1'::dtor$0" (?dtor$0@?0???$fromUtf8@PEBD@String@sf@@SA?AV01@PEBD0@Z@4HA)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Joystick::isConnected(unsigned int)" (__imp_?isConnected@Joystick@sf@@SA_NI@Z) referenced in function "unsigned int __cdecl `anonymous namespace'::getConnectedJoystickId(void)" (?getConnectedJoystickId@?A0xe839b2ef@@YAIXZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Joystick::isButtonPressed(unsigned int,unsigned int)" (__imp_?isButtonPressed@Joystick@sf@@SA_NII@Z) referenced in function "void __cdecl `anonymous namespace'::updateJoystickButtonState(struct ImGuiIO &)" (?updateJoystickButtonState@?A0xe839b2ef@@YAXAEAUImGuiIO@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static float __cdecl sf::Joystick::getAxisPosition(unsigned int,enum sf::Joystick::Axis)" (__imp_?getAxisPosition@Joystick@sf@@SAMIW4Axis@12@@Z) referenced in function "void __cdecl `anonymous namespace'::updateJoystickAxis(struct ImGuiIO &,enum ImGuiKey,enum sf::Joystick::Axis,float,float,bool)" (?updateJoystickAxis@?A0xe839b2ef@@YAXAEAUImGuiIO@@W4ImGuiKey@@W4Axis@Joystick@sf@@MM_N@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::pushGLStates(void)" (__imp_?pushGLStates@RenderTarget@sf@@QEAAXXZ) referenced in function "void __cdecl ImGui::SFML::Render(class sf::RenderTarget &)" (?Render@SFML@ImGui@@YAXAEAVRenderTarget@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::popGLStates(void)" (__imp_?popGLStates@RenderTarget@sf@@QEAAXXZ) referenced in function "void __cdecl ImGui::SFML::Render(class sf::RenderTarget &)" (?Render@SFML@ImGui@@YAXAEAVRenderTarget@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::resetGLStates(void)" (__imp_?resetGLStates@RenderTarget@sf@@QEAAXXZ) referenced in function "void __cdecl ImGui::SFML::Render(class sf::RenderTarget &)" (?Render@SFML@ImGui@@YAXAEAVRenderTarget@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) referenced in function "public: __cdecl `anonymous namespace'::WindowContext::WindowContext(class sf::Window const *)" (??0WindowContext@?A0xe839b2ef@@QEAA@PEBVWindow@sf@@@Z)
+AssetManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) referenced in function "int `public: __cdecl `anonymous namespace'::WindowContext::WindowContext(class sf::Window const *)'::`1'::dtor$0" (?dtor$0@?0???0WindowContext@?A0xe839b2ef@@QEAA@PEBVWindow@sf@@@Z@4HA)
+AssetManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Texture::create(unsigned int,unsigned int)" (__imp_?create@Texture@sf@@QEAA_NII@Z) referenced in function "bool __cdecl ImGui::SFML::UpdateFontTexture(void)" (?UpdateFontTexture@SFML@ImGui@@YA_NXZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ) referenced in function "void __cdecl ImGui::Image(class sf::Sprite const &,class sf::Vector2<float> const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVSprite@sf@@AEBV?$Vector2@M@3@AEBVColor@3@2@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Texture::update(unsigned char const *)" (__imp_?update@Texture@sf@@QEAAXPEBE@Z) referenced in function "bool __cdecl ImGui::SFML::UpdateFontTexture(void)" (?UpdateFontTexture@SFML@ImGui@@YA_NXZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned int __cdecl sf::Texture::getNativeHandle(void)const " (__imp_?getNativeHandle@Texture@sf@@QEBAIXZ) referenced in function "void __cdecl ImGui::Image(class sf::RenderTexture const &,class sf::Vector2<float> const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVRenderTexture@sf@@AEBV?$Vector2@M@3@AEBVColor@3@2@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Texture const & __cdecl sf::RenderTexture::getTexture(void)const " (__imp_?getTexture@RenderTexture@sf@@QEBAAEBVTexture@2@XZ) referenced in function "void __cdecl ImGui::Image(class sf::RenderTexture const &,class sf::Vector2<float> const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVRenderTexture@sf@@AEBV?$Vector2@M@3@AEBVColor@3@2@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Cursor::Cursor(void)" (__imp_??0Cursor@sf@@QEAA@XZ) referenced in function "public: __cdecl `anonymous namespace'::WindowContext::WindowContext(class sf::Window const *)" (??0WindowContext@?A0xe839b2ef@@QEAA@PEBVWindow@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Cursor::~Cursor(void)" (__imp_??1Cursor@sf@@QEAA@XZ) referenced in function "public: __cdecl `anonymous namespace'::WindowContext::WindowContext(class sf::Window const *)" (??0WindowContext@?A0xe839b2ef@@QEAA@PEBVWindow@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Cursor::loadFromSystem(enum sf::Cursor::Type)" (__imp_?loadFromSystem@Cursor@sf@@QEAA_NW4Type@12@@Z) referenced in function "void __cdecl `anonymous namespace'::loadMouseCursor(int,enum sf::Cursor::Type)" (?loadMouseCursor@?A0xe839b2ef@@YAXHW4Type@Cursor@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::WindowBase::setMouseCursorVisible(bool)" (__imp_?setMouseCursorVisible@WindowBase@sf@@QEAAX_N@Z) referenced in function "void __cdecl `anonymous namespace'::updateMouseCursor(class sf::Window &)" (?updateMouseCursor@?A0xe839b2ef@@YAXAEAVWindow@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::WindowBase::setMouseCursor(class sf::Cursor const &)" (__imp_?setMouseCursor@WindowBase@sf@@QEAAXAEBVCursor@2@@Z) referenced in function "void __cdecl `anonymous namespace'::updateMouseCursor(class sf::Window &)" (?updateMouseCursor@?A0xe839b2ef@@YAXAEAVWindow@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::hasFocus(void)const " (__imp_?hasFocus@WindowBase@sf@@QEBA_NXZ) referenced in function "public: __cdecl `anonymous namespace'::WindowContext::WindowContext(class sf::Window const *)" (??0WindowContext@?A0xe839b2ef@@QEAA@PEBVWindow@sf@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: struct HWND__ * __cdecl sf::WindowBase::getSystemHandle(void)const " (__imp_?getSystemHandle@WindowBase@sf@@QEBAPEAUHWND__@@XZ) referenced in function "public: __cdecl `void __cdecl ImGui::SFML::SetCurrentWindow(class sf::Window const &)'::`2'::<lambda_1>::operator()(class std::unique_ptr<struct `anonymous namespace'::WindowContext,struct std::default_delete<struct `anonymous namespace'::WindowContext> > &)const " (??R<lambda_1>@?1??SetCurrentWindow@SFML@ImGui@@YAXAEBVWindow@sf@@@Z@QEBA@AEAV?$unique_ptr@UWindowContext@?A0xe839b2ef@@U?$default_delete@UWindowContext@?A0xe839b2ef@@@std@@@std@@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Texture const * __cdecl sf::Sprite::getTexture(void)const " (__imp_?getTexture@Sprite@sf@@QEBAPEBVTexture@2@XZ) referenced in function "void __cdecl ImGui::Image(class sf::Sprite const &,class sf::Vector2<float> const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVSprite@sf@@AEBV?$Vector2@M@3@AEBVColor@3@2@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<int> const & __cdecl sf::Sprite::getTextureRect(void)const " (__imp_?getTextureRect@Sprite@sf@@QEBAAEBV?$Rect@H@2@XZ) referenced in function "void __cdecl ImGui::Image(class sf::Sprite const &,class sf::Vector2<float> const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVSprite@sf@@AEBV?$Vector2@M@3@AEBVColor@3@2@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Sprite::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Sprite@sf@@QEBA?AV?$Rect@M@2@XZ) referenced in function "void __cdecl ImGui::Image(class sf::Sprite const &,class sf::Color const &,class sf::Color const &)" (?Image@ImGui@@YAXAEBVSprite@sf@@AEBVColor@3@1@Z)
+InputManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Sprite::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Sprite@sf@@QEBA?AV?$Rect@M@2@XZ)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::String __cdecl sf::Clipboard::getString(void)" (__imp_?getString@Clipboard@sf@@SA?AVString@2@XZ) referenced in function "char const * __cdecl `anonymous namespace'::getClipboardText(void *)" (?getClipboardText@?A0xe839b2ef@@YAPEBDPEAX@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl sf::Clipboard::setString(class sf::String const &)" (__imp_?setString@Clipboard@sf@@SAXAEBVString@2@@Z) referenced in function "void __cdecl `anonymous namespace'::setClipboardText(void *,char const *)" (?setClipboardText@?A0xe839b2ef@@YAXPEAXPEBD@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Vector2<int> const &,class sf::Vector2<float> const &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEBV?$Vector2@H@sf@@AEBV?$Vector2@M@4@VTime@4@@Z)
+InputManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::WindowBase const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@AEBVWindowBase@2@@Z) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Window &,class sf::RenderTarget &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEAVWindow@sf@@AEAVRenderTarget@4@VTime@4@@Z)
+InputManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::WindowBase const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@AEBVWindowBase@2@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl sf::Mouse::setPosition(class sf::Vector2<int> const &)" (__imp_?setPosition@Mouse@sf@@SAXAEBV?$Vector2@H@2@@Z) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Vector2<int> const &,class sf::Vector2<float> const &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEBV?$Vector2@H@sf@@AEBV?$Vector2@M@4@VTime@4@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Touch::isDown(unsigned int)" (__imp_?isDown@Touch@sf@@SA_NI@Z) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Window &,class sf::RenderTarget &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEAVWindow@sf@@AEAVRenderTarget@4@VTime@4@@Z)
+imgui-SFML.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Touch::getPosition(unsigned int,class sf::WindowBase const &)" (__imp_?getPosition@Touch@sf@@SA?AV?$Vector2@H@2@IAEBVWindowBase@2@@Z) referenced in function "void __cdecl ImGui::SFML::Update(class sf::Window &,class sf::RenderTarget &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEAVWindow@sf@@AEAVRenderTarget@4@VTime@4@@Z)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) referenced in function "public: void __cdecl GatorEngine::AssetManager::LoadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTexture@AssetManager@GatorEngine@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Texture & __cdecl sf::Texture::operator=(class sf::Texture const &)" (__imp_??4Texture@sf@@QEAAAEAV01@AEBV01@@Z) referenced in function "public: void __cdecl GatorEngine::AssetManager::LoadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadTexture@AssetManager@GatorEngine@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ) referenced in function "public: __cdecl std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class sf::Font>::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class sf::Font><class std::tuple<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &>,class std::tuple<>,0>(class std::tuple<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &> &,class std::tuple<> &,struct std::integer_sequence<unsigned __int64,0>,struct std::integer_sequence<unsigned __int64>)" (??$?0V?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VFont@sf@@@std@@QEAA@AEAV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ) referenced in function "public: __cdecl std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class sf::Font>::~pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class sf::Font>(void)" (??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VFont@sf@@@std@@QEAA@XZ)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl GatorEngine::AssetManager::LoadFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadFont@AssetManager@GatorEngine@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+AssetManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Font & __cdecl sf::Font::operator=(class sf::Font const &)" (__imp_??4Font@sf@@QEAAAEAV01@AEBV01@@Z) referenced in function "public: void __cdecl GatorEngine::AssetManager::LoadFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LoadFont@AssetManager@GatorEngine@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+InputManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ) referenced in function "public: bool __cdecl GatorEngine::InputManager::IsSpriteClicked(class sf::Sprite,enum sf::Mouse::Button,class sf::RenderWindow &)" (?IsSpriteClicked@InputManager@GatorEngine@@QEAA_NVSprite@sf@@W4Button@Mouse@4@AEAVRenderWindow@4@@Z)
+InputManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) referenced in function "public: bool __cdecl GatorEngine::InputManager::IsSpriteClicked(class sf::Sprite,enum sf::Mouse::Button,class sf::RenderWindow &)" (?IsSpriteClicked@InputManager@GatorEngine@@QEAA_NVSprite@sf@@W4Button@Mouse@4@AEAVRenderWindow@4@@Z)
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::isOpen(void)const " (__imp_?isOpen@WindowBase@sf@@QEBA_NXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@UEAAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::setFramerateLimit(unsigned int)" (__imp_?setFramerateLimit@Window@sf@@QEAAXI@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setRotation(float)" (__imp_?setRotation@Transformable@sf@@QEAAXM@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function main
+E:\Visual Studio 2022 Repos\sfml_game_engine\\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio 2022 Repos\sfml_game_engine\\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio 2022 Repos\sfml_game_engine\\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio 2022 Repos\sfml_game_engine\\SFML\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\flac.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\ogg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\openal32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-audio-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-audio-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-audio.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-graphics-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-graphics-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-graphics.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-network-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-network-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-network.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-system-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-system-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-system.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-window-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-window-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\sfml-window.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\vorbis.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\vorbisenc.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SFML\lib\vorbisfile.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio 2022 Repos\sfml_game_engine\x64\Debug\sfml_game_engine.exe : fatal error LNK1120: 61 unresolved externals
