@@ -4,11 +4,12 @@
 #include "SFML/Graphics.hpp"
 #include <box2d/box2d.h>
 #include <iostream>
+#include "glm.hpp"
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1366, 768), "Gator Engine");
-    
+    glm::bvec4 testVec(1, 0, 3, 4);
     ImGui::SFML::Init(window);
     sf::Clock deltaClock;
   

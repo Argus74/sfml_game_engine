@@ -1,2 +1,49 @@
-﻿  main.cpp
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  AssetManager.cpp
+  Game.cpp
+  InputManager.cpp
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,128): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,96): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,68): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Visual Studio 2022 Repos\sfml_game_engine\src\InputManager.cpp(8,44): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  main.cpp
+  StateMachine.cpp
+  Generating Code...
   sfml_game_engine.vcxproj -> E:\Visual Studio 2022 Repos\sfml_game_engine\Debug\sfml_game_engine.exe
